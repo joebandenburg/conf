@@ -1,0 +1,23 @@
+[user]
+	name = Joe Bandenburg
+	email = joe@bandenburg.com
+[branch]
+	autosetuprebase = always
+[help]
+	autocorrect = 1
+	format = html
+[merge]
+	conflictstyle = diff3
+[advice]
+	statusHints = false
+[push]
+	default = simple
+[alias]
+	s = status
+	cm = commit
+	r = rebase
+	co = checkout
+	d = diff
+	p = pull
+	b = branch
+	g = push origin HEAD:refs/for/master
